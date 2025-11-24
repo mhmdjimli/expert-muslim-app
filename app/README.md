@@ -106,5 +106,3 @@ Untuk pertanyaan atau saran, silakan hubungi:
 Kontribusi selalu diterima! Silakan buat pull request atau laporkan issue jika menemukan bug.
 
 ---
-
-**Catatan**: Pastikan untuk tidak meng-commit file `google-services.json` yang berisi kredensial sensitif ke repository public.
