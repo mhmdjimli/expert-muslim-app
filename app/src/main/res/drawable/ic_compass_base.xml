@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Latar Belakang Kompas -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M 50,50 m -50,0 a 50,50 0 1,0 100,0 a 50,50 0 1,0 -100,0" />
+
+    <!-- Garis-garis Derajat (setiap 10 derajat) -->
+    <group android:pivotX="50" android:pivotY="50" android:rotation="0"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="10"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="20"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="30"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="40"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="50"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="60"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="70"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="80"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="90"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="100"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="110"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="120"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="130"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="140"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="150"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="160"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="170"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="180"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="190"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="200"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="210"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="220"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="230"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="240"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="250"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="260"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="270"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="280"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="290"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="300"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="310"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="320"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="330"><path android:strokeColor="#757575" android:strokeWidth="0.5" android:pathData="M 50,2 L 50,8" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="340"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+    <group android:pivotX="50" android:pivotY="50" android:rotation="350"><path android:strokeColor="#9E9E9E" android:strokeWidth="0.3" android:pathData="M 50,2 L 50,6" /></group>
+
+    <!-- Penanda Arah Utama -->
+    <!-- Utara -->
+    <path
+        android:fillColor="@color/error"
+        android:pathData="M 50,0 L 55,12 L 45,12 z" />
+    <!-- Timur -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M 98,50 L 88,55 L 88,45 z" />
+    <!-- Selatan -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M 50,98 L 45,88 L 55,88 z" />
+    <!-- Barat -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M 2,50 L 12,45 L 12,55 z" />
+
+</vector>

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "title": "Istighfar (3x)",
+    "arabic": "أَسْتَغْفِرُ اللهَ الْعَظِيْمَ",
+    "latin": "Astaghfirullahal 'adziim",
+    "translation": "Aku memohon ampunan kepada Allah Yang Maha Agung."
+  },
+  {
+    "id": "2",
+    "title": "Tasbih (33x)",
+    "arabic": "سُبْحَانَ اللهِ",
+    "latin": "Subhanallah",
+    "translation": "Maha Suci Allah."
+  },
+  {
+    "id": "3",
+    "title": "Tahmid (33x)",
+    "arabic": "الْحَمْدُ لِلَّهِ",
+    "latin": "Alhamdulillah",
+    "translation": "Segala puji bagi Allah."
+  },
+  {
+    "id": "4",
+    "title": "Takbir (33x)",
+    "arabic": "اللهُ أَكْبَرُ",
+    "latin": "Allahu Akbar",
+    "translation": "Allah Maha Besar."
+  },
+  {
+    "id": "5",
+    "title": "Tahlil & Kalimat Tauhid",
+    "arabic": "لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ",
+    "latin": "Laa ilaha illallah wahdahu laa syarika lah, lahul mulku wa lahul hamdu wa huwa 'ala kulli syai-in qodiir.",
+    "translation": "Tidak ada Tuhan selain Allah semata, tidak ada sekutu bagi-Nya. Milik-Nya segala kerajaan dan bagi-Nya segala puji, dan Dia Maha Kuasa atas segala sesuatu."
+  },
+  {
+    "id": "6",
+    "title": "Doa Memohon Perlindungan",
+    "arabic": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+    "latin": "Allahumma a'inni 'ala dzikrika wa syukrika wa husni 'ibadatik.",
+    "translation": "Ya Allah, bantulah aku untuk senantiasa mengingat-Mu, bersyukur kepada-Mu, dan beribadah dengan baik kepada-Mu."
+  },
+  {
+    "id": "7",
+    "title": "Ayat Kursi",
+    "arabic": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْfهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+    "latin": "Allahu la ilaha illa Huwa, Al-Hayyul-Qayyum. La ta'khudzuhu sinatun wa la nawm. Lahu ma fis-samawati wa ma fil-'ard. Man dzal-ladzi yasyfa'u 'indahu illa bi-idznih. Ya'lamu ma baina aidihim wa ma khalfahum. Wa la yuhituna bi syai'im min 'ilmihi illa bima sya'. Wasi'a kursiyyuhus-samawati wal ard. Wa la ya'uduhu hifzhuhuma wa Huwal-'Aliyyul-'Azhim.",
+    "translation": "Allah, tidak ada Tuhan (yang berhak disembah) melainkan Dia Yang Hidup kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang di langit dan di bumi. Tiada yang dapat memberi syafa'at di sisi Allah tanpa izin-Nya? Allah mengetahui apa-apa yang di hadapan mereka dan di belakang mereka, dan mereka tidak mengetahui apa-apa dari ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar."
+  },
+  {
+    "id": "8",
+    "title": "Doa Keselamatan Dunia & Akhirat",
+    "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+    "latin": "Rabbana atina fiddunya hasanah, wa fil akhirati hasanah, wa qina 'adzabannar.",
+    "translation": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan peliharalah kami dari siksa api neraka."
+  }
+]

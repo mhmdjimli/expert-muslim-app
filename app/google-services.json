@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "112612612086",
+    "project_id": "expert-muslim-55d00",
+    "storage_bucket": "expert-muslim-55d00.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112612612086:android:b87c96d6bc0714ea0359d7",
+        "android_client_info": {
+          "package_name": "com.expertmuslim.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCeboytj_l6twSvw_9lMacWPGV1HOJP-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp" android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Bayangan Panah untuk efek 3D -->
+    <path
+        android:pathData="M 50,15 L 40,50 L 50,45 L 60,50 Z"
+        android:fillColor="#000000"
+        android:alpha="0.2"/>
+
+    <!-- Badan Panah Utama -->
+    <path
+        android:fillColor="@color/accent"
+        android:pathData="M 50,12 L 40,48 L 50,43 L 60,48 Z" />
+
+    <!-- Lingkaran Tengah -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M 50,50 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0" />
+
+    <!-- Detail Lingkaran Tengah -->
+    <path
+        android:fillColor="@color/accent"
+        android:pathData="M 50,50 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+</vector>

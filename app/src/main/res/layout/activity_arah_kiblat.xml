@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    tools:context=".activities.ArahKiblatActivity">
+
+    <!-- Header (Tidak berubah) -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary"
+            app:navigationIcon="@drawable/ic_back_arrow"
+            app:title="Arah Kiblat"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Konten Utama -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appbar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Teks Lokasi & Derajat (Tidak berubah) -->
+        <TextView
+            android:id="@+id/tvLokasiKiblat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mencari lokasi..."
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvDerajatKiblat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="294°" />
+
+        <!-- Frame untuk Kompas (Dengan Penanda Utara) -->
+        <FrameLayout
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_marginTop="24dp">
+
+            <!-- 1. Gambar Dasar Kompas (yang akan berputar) -->
+            <ImageView
+                android:id="@+id/ivCompassBase"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_compass_base"
+                android:contentDescription="Dasar Kompas" />
+
+            <!-- 2. Gambar Panah Kiblat (yang akan berputar) -->
+            <ImageView
+                android:id="@+id/ivQiblaArrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_qibla_arrow"
+                android:contentDescription="Panah Penunjuk Kiblat" />
+
+            <!-- 3. PENANDA UTARA STATIS (BARU) -->
+            <!-- Ini adalah pin yang tidak bergerak di bagian atas -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal|top"
+                android:src="@android:drawable/arrow_down_float"
+                app:tint="@color/primary"
+                android:contentDescription="Penanda Utara"/>
+
+        </FrameLayout>
+
+        <!-- Teks Instruksi (diubah sedikit) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Posisikan HP mendatar. Luruskan tanda ▼ dengan ▲ merah (Utara).\nPanah biru akan menunjuk ke arah Kiblat."
+            android:textAlignment="center"
+            android:textColor="@color/text_secondary"
+            android:lineSpacingMultiplier="1.2"/>
+    </LinearLayout>
+</RelativeLayout>
